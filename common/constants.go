@@ -5,19 +5,19 @@ import (
 )
 
 const (
-	RewardMasterPercent        = 40
-	RewardVoterPercent         = 0
-	RewardFoundationPercent    = 10
+	RewardMasterPercent        = 51
+	RewardVoterPercent         = 19
+	RewardFoundationPercent    = 30
 	HexSignMethod              = "e341eaa4"
 	HexSetSecret               = "34d38600"
 	HexSetOpening              = "e11f5ba2"
 	EpocBlockSecret            = 800
 	EpocBlockOpening           = 850
 	EpocBlockRandomize         = 900
-	MaxMasternodes             = 150
+	MaxMasternodes             = 1500
 	LimitPenaltyEpoch          = 4
 	LimitThresholdNonceInQueue = 10
-	DefaultMinGasPrice         = 250000000
+	DefaultMinGasPrice         = 25000
 	MergeSignRange             = 15
 	RangeReturnSigner          = 150
 	MinimunMinerBlockPerEpoch  = 1
